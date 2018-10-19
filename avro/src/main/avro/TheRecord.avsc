@@ -1,0 +1,10 @@
+{
+  "namespace": "io.lbg.kafka.streams.example",
+  "type": "record",
+  "name": "TheMessage",
+  "fields": [
+    {"name": "id"     , "type": ["null", "int"   ], "default": null},
+    {"name": "date"   , "type": ["null", "long"  ], "default": null},
+    {"name": "name"   , "type": ["null", "string"], "default": null}
+  ]
+}
